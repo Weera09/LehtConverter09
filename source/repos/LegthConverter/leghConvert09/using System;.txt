@@ -1,0 +1,13 @@
+using System;
+
+class LeghtConverter
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("โปรแกรมแปลงหน่วยความยาว (เมตร เป็น เซนติเมตร)");
+        Console.Write("กรอกค่าความยาว (เมตร): ");
+        double meter = Convert.ToDouble(Console.ReadLine());
+        double centimeter = meter * 100;
+        Console.WriteLine($"{meter} เมตร = {centimeter} เซนติเมตร");
+    }
+}

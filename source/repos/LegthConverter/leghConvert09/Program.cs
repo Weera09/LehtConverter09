@@ -1,0 +1,14 @@
+﻿// ทดสอบการแก้ไข 20/5/2025
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("โปรแกรมแปลงหน่วยความยาว (เมตร เป็น เซนติเมตร)");
+        Console.Write("กรอกค่าความยาว (เมตร): ");
+        double meter = Convert.ToDouble(Console.ReadLine());
+        double centimeter = meter * 100;
+        Console.WriteLine($"{meter} เมตร = {centimeter} เซนติเมตร");
+    }
+}
